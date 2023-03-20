@@ -1,3 +1,22 @@
 body {
     background-color: #000000 ;
 }
+
+.debutdepage {
+    margin-left: 25px;
+}
+
+.debutdepage p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.debutdepage span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2db33a ;
+}
+
+.debutdepage h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
