@@ -1,4 +1,13 @@
 
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+
+}
+
 nav {
 	padding: 0; margin: 0;
 	text-align: center; /* centrer le texte */
@@ -29,6 +38,7 @@ nav li {
     display: inline;
 	list-style: none;
 }
+
 
 .Home {
     animation: left 1.1s ease forwards;

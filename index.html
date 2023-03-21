@@ -9,6 +9,9 @@
 
     <!-- link css -->
 
+<link rel="stylesheet" href="css/scrollUp.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/milieupage.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/image.css">
     <link rel="stylesheet" href="css/style.css">
@@ -21,26 +24,86 @@
     <nav>
         <ul class="nav__links">
             <li><a href="#" class="Home">Accueil</a></li>
-            <li><a href="#" class="Projet">Projet</a></li>
+            <li><a href="#projet" class="Projet">Projet</a></li>
             <li><a href="#" class="Propos">A propos</a></li>
         </ul>
     </nav>
+    <br><br><br>
      <div class="banner">
         <img src="img/banner.png" alt="bannière de toshypix">
     </div>
 </header>
 <body>
 
-    <div class="debutdepage">
+    <div class="btn">
+        <img src="img/ArrowScrollUpWhite.png" class="icone"></a>
+    </div>
+    
+    <div class="debutdepage" id="Home" >
     <p>bonjour,<br>
     <h1>Je suis ToshyPix<br>
     et je suis <span>Graphiste, développer Amateur</span> .</h1>
     </div>
 
-    <!-- script js -->
-    <script src="script.js"></script>
-    <!-- typed js -->
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <br><br><br><br><br>
 
+    <div class="milieudepage" id="projet">
+        <div class="main-text">
+			<h2>Mes Projet</h2>
+			<h4>Meilleure conception, meilleures expériencess</h4>
+		</div>
+        
+		<div class="services-content">
+			<div class="box">
+				<!-- <img src="#"> -->
+				<h3>design Graphique</h3>
+				<p>Je suis graphiste amateur depuis plus de 3 ans. Au cours de mon parcours entant que graphiste amateur j'ai réaliser des commande personne voulant valorisé mon travaille.</p>
+			</div>
+
+			<div class="box">
+				<!-- <img src="#"> -->
+				<h3>site web</h3>
+				<p>Dans le cadre d'un projet dans mon lycée j'ai etais en mesure d'experimenté mes acquis en développement informatique, en créant un site internet fonction et responsive.</p>
+			</div>
+		</div>   
+    </div>
+
+    <br><br><br><br><br>
+
+    <footer>
+        <p>Sacha Laville - 2023</p>
+    </footer>
+
+    <!-- ScrollUp arrow -->
+    <script>
+        const btn = document.querySelector('.btn')
+
+        btn.addEventListener('click', () => {
+
+        window.scrollTo({
+            top:0,
+            left:0,
+            behavior: "smooth"
+        })
+
+        })
+    </script>
+
+    <!-- script header fixed-->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+        
 </body>
 </html>
