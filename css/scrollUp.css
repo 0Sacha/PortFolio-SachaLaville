@@ -9,3 +9,13 @@
     bottom: 20px;
     cursor: pointer;
   }
+
+  .icone {
+    width: 75px ;
+    transition: transform 0.4s;
+  }
+  
+  .icone:hover {
+    transform: translateY(-10px);
+  }
+  

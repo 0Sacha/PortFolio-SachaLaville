@@ -36,6 +36,7 @@
 }
 
 .box{
+    
 	padding: 45px;
 	background: #12141c;
 	border-top: 5px solid transparent;
@@ -57,6 +58,7 @@
 	line-height: 30px;
 }
 .box:hover{
+    position: relative;
 	transform: scale(1.01) translateY(-5px);
 	border-top: 5px solid var(--main-color);
 }
