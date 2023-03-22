@@ -35,6 +35,24 @@
 	margin-top: 5rem;
 }
 
+.graphisme {
+    text-decoration: none;
+    color: #fff;
+}
+
+.siteweb {
+    text-decoration: none;
+    color: #fff;
+} 
+
+button {
+    text-decoration: none;
+    border: none;
+    background: #12141c;
+    color: #fff;
+
+}
+
 .box{
     
 	padding: 45px;
