@@ -1,7 +1,7 @@
 :root{
 	--bg-color: #020312;
 	--text-color: #fff;
-	--main-color: #0fd423;
+	--main-color: #fff;
 	--second-color: gray;
 	--other-color: #12141c;
 	--h1-font: 5.2rem;
@@ -58,41 +58,77 @@
     color: #fff;
 } 
 
-button {
-    text-decoration: none;
-    border: none;
-    background: #12141c;
-    color: #fff;
-
+.box-img-logomc img{
+	height: 250px ;
+	width : 250px ;
+	border-radius: 0.5rem;
 }
 
-.box{
+.box-img-logomc {
     margin: 0;
 	padding: 45px;
-	background: #12141c;
+	background: #28adff;
 	border-top: 5px solid transparent;
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 	cursor: pointer;
 }
-.box h3{
+
+.box-img-logomc h3{
     font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-weight: 600;
 	margin: 15px 0;
 	transition: all .40s ease;
 }
-.box p{
+.box-img-logomc p{
     font-family: Arial, Helvetica, sans-serif;
 	color: var(--second-color);
 	font-size: var(--p-font);
 	line-height: 30px;
 }
-.box:hover{
+.box-img-logomc:hover{
     position: relative;
 	transform: scale(1.01) translateY(-5px);
 	border-top: 5px solid var(--main-color);
 }
-.box:hover h3{
-	color: var(--main-color);
+.box-img-logomc:hover h3{
+	color:#fff;
+}
+
+.box-img-kideobot img {
+		height: 250px ;
+		width : 250px ;
+		border-radius: 0.5rem;
+}
+
+.box-img-kideobot{
+    margin: 0;
+	padding: 68px;
+	background: #ff7c00;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-kideobot h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-kideobot p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-kideobot:hover{
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-kideobot:hover h3{
+	color:#fff;
 }
