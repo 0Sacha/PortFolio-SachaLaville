@@ -28,7 +28,7 @@
 .services-content{
     color:#fff;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	grid-template-columns: repeat(auto-fit);
 	align-items: center;
 	text-align: center;
 	gap: 2rem;
@@ -67,7 +67,7 @@ button {
 }
 
 .box{
-    margin: 0 ;
+    margin: 0 50px;
 	padding: 45px;
 	background: #12141c;
 	border-top: 5px solid transparent;
