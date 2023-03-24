@@ -53,7 +53,42 @@
 				        <p></p>                  
             </div>
 		</div> 
+        <div class="btn">
+            <img src="img/ArrowScrollUpWhite.png" class="icone"></a>
+        </div>
+
+        <br><br><br>
+
+        <!-- ScrollUp arrow -->
+    <script>
+        const btn = document.querySelector('.btn')
+
+        btn.addEventListener('click', () => {
+
+        window.scrollTo({
+            top:0,
+            left:0,
+            behavior: "smooth"
+        })
+
+        })       
+    </script>
+
+    <!-- script header fixed-->
+    <script>
+        window.onscroll = function() {myFunction()};
         
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
 </div>
 </body>
 </html>

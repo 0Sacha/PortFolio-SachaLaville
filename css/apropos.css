@@ -58,16 +58,9 @@
     color: #fff;
 } 
 
-button {
-    text-decoration: none;
-    border: none;
-    background: #12141c;
-    color: #fff;
-
-}
 
 .box{
-    margin: 0 50px;
+    margin: 0 10px;
 	padding: 45px;
 	background: #12141c;
 	border-top: 5px solid transparent;
