@@ -58,10 +58,18 @@
     color: #fff;
 } 
 
+
 .box-img-logomc img{
 	height: 250px ;
 	width : 250px ;
 	border-radius: 0.5rem;
+}
+
+.box-img-logomc {
+	background: #28adff;
+	box-shadow: 0 1px 20px 0 #28adff;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
 }
 
 .box-img-logomc {
@@ -88,6 +96,10 @@
 	line-height: 30px;
 }
 .box-img-logomc:hover{
+	background: #28adff;
+	box-shadow: 0 0px 0px 0 #28adff;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
     position: relative;
 	transform: scale(1.01) translateY(-5px);
 	border-top: 5px solid var(--main-color);
@@ -100,6 +112,13 @@
 		height: 250px ;
 		width : 250px ;
 		border-radius: 0.5rem;
+}
+
+.box-img-kideobot {
+background: #ff7c00;
+box-shadow: 0 1px 20px 0 #ff7c00;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
 }
 
 .box-img-kideobot{
@@ -125,6 +144,10 @@
 	line-height: 30px;
 }
 .box-img-kideobot:hover{
+	background: #ff7c00;
+	box-shadow: 0 0px 0px 0 #ff7c00;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
     position: relative;
 	transform: scale(1.01) translateY(-5px);
 	border-top: 5px solid var(--main-color);
