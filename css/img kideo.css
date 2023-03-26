@@ -156,9 +156,11 @@ backdrop-filter: blur( 4px );
 	color:#fff;
 }
 
+/* asset arty */
+
 .box-img-assettwitcharty img {
-	height: 250px ;
-	width : 400px ;
+	height: 225px ;
+	width : 300px ;
 	border-radius: 0.5rem;
 }
 
@@ -207,8 +209,8 @@ backdrop-filter: blur( 4px );
 /* box-img-etnalogo */
 
 .box-img-etnalogo img {
-	height: 250px ;
-	width : 400px ;
+	height: 225px ;
+	width : 300px ;
 	border-radius: 0.5rem;
 }
 
