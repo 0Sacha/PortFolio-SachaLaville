@@ -401,3 +401,52 @@ backdrop-filter: blur( 4px );
 .box-img-doodle:hover h3{
 	color:#fff;
 }
+
+/* perso minecraft */
+
+.box-img-PersoMc img {
+	height: 225px ;
+	width : 300px ;
+	border-radius: 0.7rem;
+}
+
+.box-img-PersoMc {
+	background: #000000;
+	box-shadow: 0 1px 20px 0 #5f677a;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+}
+
+.box-img-PersoMc{
+    margin: 0;
+	padding: 45px;
+	background: #2d3039;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-PersoMc h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-PersoMc p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-PersoMc:hover{
+	box-shadow: 0 0px 0px 0 #1d1c1c;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-PersoMc:hover h3{
+	color:#fff;
+}
