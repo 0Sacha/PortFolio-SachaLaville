@@ -58,6 +58,18 @@
     color: #fff;
 } 
 
+/* logo minecraft */
+
+.box-img-logomc button {
+    border: none;
+    background: #28adff;
+}
+
+.box-img-logomc a{
+	text-decoration: none;
+	color: #fff;
+}
+
 
 .box-img-logomc img{
 	height: 250px ;
@@ -108,17 +120,29 @@
 	color:#fff;
 }
 
+/* Kideo bot */
+
+.box-img-kideobot button {
+    border: none;
+    background: #ff7c00;
+}
+
+.box-img-kideobot a{
+	text-decoration: none;
+	color: #fff;
+}
+
 .box-img-kideobot img {
-		height: 250px ;
-		width : 250px ;
-		border-radius: 0.5rem;
+	height: 250px ;
+	width : 250px ;
+	border-radius: 0.5rem;
 }
 
 .box-img-kideobot {
-background: #ff7c00;
-box-shadow: 0 1px 20px 0 #ff7c00;
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
+	background: #ff7c00;
+	box-shadow: 0 1px 20px 0 #ff7c00;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
 }
 
 .box-img-kideobot{
@@ -157,6 +181,16 @@ backdrop-filter: blur( 4px );
 }
 
 /* asset arty */
+
+.box-img-assettwitcharty button {
+    border: none;
+    background: #101024;
+}
+
+.box-img-assettwitcharty a{
+	text-decoration: none;
+	color: #fff;
+}
 
 .box-img-assettwitcharty img {
 	height: 225px ;
@@ -207,6 +241,16 @@ backdrop-filter: blur( 4px );
 }
 
 /* box-img-etnalogo */
+
+.box-img-etnalogo button {
+    border: none;
+    background: #0f0f0f;
+}
+
+.box-img-etnalogo a{
+	text-decoration: none;
+	color: #fff;
+}
 
 .box-img-etnalogo img {
 	height: 225px ;
@@ -306,6 +350,16 @@ backdrop-filter: blur( 4px );
 
 /* CustomJBL */
 
+.box-img-CustomJBL button {
+    border: none;
+    background: #28190a;
+}
+
+.box-img-CustomJBL a{
+	text-decoration: none;
+	color: #fff;
+}
+
 .box-img-CustomJBL img {
 	height: 250px ;
 	width : 200px ;
@@ -354,6 +408,16 @@ backdrop-filter: blur( 4px );
 }
 
 /* doodle */
+
+.box-img-doodle button {
+    border: none;
+    background: #228afd;
+}
+
+.box-img-doodle a{
+	text-decoration: none;
+	color: #fff;
+}
 
 .box-img-doodle img {
 	height: 250px ;
@@ -404,6 +468,16 @@ backdrop-filter: blur( 4px );
 
 /* perso minecraft */
 
+.box-img-PersoMc button {
+    border: none;
+    background: #2d3039;
+}
+
+.box-img-PersoMc a{
+	text-decoration: none;
+	color: #fff;
+}
+
 .box-img-PersoMc img {
 	height: 225px ;
 	width : 300px ;
@@ -448,5 +522,123 @@ backdrop-filter: blur( 4px );
 	border-top: 5px solid var(--main-color);
 }
 .box-img-PersoMc:hover h3{
+	color:#fff;
+}
+
+/* DeltaOne */
+
+.box-img-DeltaOne button {
+    border: none;
+    background: #0e043d;
+}
+
+.box-img-DeltaOne a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.box-img-DeltaOne img {
+	height: 225px ;
+	width : 350px ;
+	border-radius: 0.7rem;
+}
+
+.box-img-DeltaOne {
+	background: #000000;
+	box-shadow: 0 1px 20px 0 #2b0eaf;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+}
+
+.box-img-DeltaOne{
+    margin: 0;
+	padding: 45px;
+	background: #0e043d;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-DeltaOne h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-DeltaOne p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-DeltaOne:hover{
+	box-shadow: 0 0px 0px 0 #1d1c1c;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-DeltaOne:hover h3{
+	color:#fff;
+}
+
+/* MonPortFolio */
+
+.box-img-PortFolio button {
+    border: none;
+    background: #0f0f0f;
+}
+
+.box-img-PortFolio a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.box-img-PortFolio img {
+	height: 225px ;
+	width : 350px ;
+	border-radius: 0.7rem;
+}
+
+.box-img-PortFolio {
+	background: #313131;
+	box-shadow: 0 1px 20px 0 #313131;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+}
+
+.box-img-PortFolio{
+    margin: 0;
+	padding: 45px;
+	background: #0f0f0f;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-PortFolio h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-PortFolio p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-PortFolio:hover{
+	box-shadow: 0 0px 0px 0 #1d1c1c;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-PortFolio:hover h3{
 	color:#fff;
 }

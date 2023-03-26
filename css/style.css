@@ -23,3 +23,18 @@ body {
     color: #fff;
 }
 
+.findetext a{
+    color: #006fc4;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.findetext a:hover {
+    color: #0b94fd;
+    font-weight: bold;
+}
+
+.findetext a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
