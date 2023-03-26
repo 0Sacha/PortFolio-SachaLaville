@@ -28,7 +28,7 @@
 .services-content{
     color:#fff;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 	align-items: center;
 	text-align: center;
 	gap: 2rem;
@@ -153,5 +153,249 @@ backdrop-filter: blur( 4px );
 	border-top: 5px solid var(--main-color);
 }
 .box-img-kideobot:hover h3{
+	color:#fff;
+}
+
+.box-img-assettwitcharty img {
+	height: 250px ;
+	width : 400px ;
+	border-radius: 0.5rem;
+}
+
+.box-img-assettwitcharty {
+	background: #3131b3;
+	box-shadow: 0 1px 20px 0 #3030a1;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+}
+
+.box-img-assettwitcharty{
+    margin: 0;
+	padding: 45px;
+	background: #101024;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-assettwitcharty h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-assettwitcharty p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-assettwitcharty:hover{
+	background: #101024;
+	box-shadow: 0 0px 0px 0 #101024;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-assettwitcharty:hover h3{
+	color:#fff;
+}
+
+/* box-img-etnalogo */
+
+.box-img-etnalogo img {
+	height: 250px ;
+	width : 400px ;
+	border-radius: 0.5rem;
+}
+
+.box-img-etnalogo {
+	background: #303030;
+	box-shadow: 0 1px 20px 0 #414141;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+}
+
+.box-img-etnalogo{
+    margin: 0;
+	padding: 45px;
+	background: #0f0f0f;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-etnalogo h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-etnalogo p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-etnalogo:hover{
+	box-shadow: 0 0px 0px 0 #1d1c1c;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-etnalogo:hover h3{
+	color:#fff;
+}
+
+/* LOGO KRONOS */
+
+.box-img-kronoslogo img {
+	height: 250px ;
+	width : 250px ;
+	border-radius: 0.7rem;
+}
+
+.box-img-kronoslogo {
+	background: #854397;
+	box-shadow: 0 1px 20px 0 #854397;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+}
+
+.box-img-kronoslogo{
+    margin: 0;
+	padding: 45px;
+	background: #26142b;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-kronoslogo h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-kronoslogo p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-kronoslogo:hover{
+	box-shadow: 0 0px 0px 0 #1d1c1c;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-kronoslogo:hover h3{
+	color:#fff;
+}
+
+/* CustomJBL */
+
+.box-img-CustomJBL img {
+	height: 250px ;
+	width : 200px ;
+	border-radius: 0.7rem;
+}
+
+.box-img-CustomJBL {
+	background: #885420;
+	box-shadow: 0 1px 20px 0 #885420;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+}
+
+.box-img-CustomJBL{
+    margin: 0;
+	padding: 45px;
+	background: #28190a;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-CustomJBL h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-CustomJBL p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-CustomJBL:hover{
+	box-shadow: 0 0px 0px 0 #1d1c1c;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-CustomJBL:hover h3{
+	color:#fff;
+}
+
+/* doodle */
+
+.box-img-doodle img {
+	height: 250px ;
+	width : 200px ;
+	border-radius: 0.7rem;
+}
+
+.box-img-doodle {
+	background: #228afd;
+	box-shadow: 0 1px 20px 0 #5fbcd1;
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+}
+
+.box-img-doodle{
+    margin: 0;
+	padding: 45px;
+	background: #228afd;
+	border-top: 5px solid transparent;
+	border-radius: 0.5rem;
+	transition: all .40s ease;
+	cursor: pointer;
+}
+.box-img-doodle h3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0;
+	transition: all .40s ease;
+}
+.box-img-doodle p{
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+}
+.box-img-doodle:hover{
+	box-shadow: 0 0px 0px 0 #1d1c1c;
+	backdrop-filter: blur( 0px );
+	-webkit-backdrop-filter: blur( 0px );
+    position: relative;
+	transform: scale(1.01) translateY(-5px);
+	border-top: 5px solid var(--main-color);
+}
+.box-img-doodle:hover h3{
 	color:#fff;
 }
