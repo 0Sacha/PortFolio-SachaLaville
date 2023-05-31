@@ -15,43 +15,6 @@ header {
     background: #000;
 }
 
-nav {
-    margin-top:  55px;
-    margin-left: 250px;
-
-}
-
-
-nav a {
-    text-decoration: none;
-    font-size: 40px ;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    display: inline-block;
-}
-
-nav a:hover {
-    color: #4687ff;
-    transition: color 0.3s ease 0s;
-}
-
-
-nav li {
-    display: flex;
-	padding: 10px 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-nav li {
-    display: inline;
-	list-style: none;
-}
-
-
-/* earth */
-
 .earth {
     animation: earth 8s ease-in-out 5s infinite;
 }
@@ -117,6 +80,36 @@ nav li {
     display: flex;
     align-items: center;
     color: #FFFFFF;
+}
+
+/* ligne 1 */
+
+.ligne {
+    margin-top: -17px;
+    background-color: #5a1dffff;
+}
+
+/* section 1 */
+
+
+
+.sec1 h1 {
+    text-align: left;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec1 p {
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+}
+
+.sec1 span {
+    color: #0b94fd;
+    font-weight: bold;
 }
 
 /* footer */
