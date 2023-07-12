@@ -45,3 +45,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+.box .openclassroomsLink  {
+	color: white;
+	font-weight: bold;
+}
