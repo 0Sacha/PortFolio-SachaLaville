@@ -38,3 +38,23 @@ nav li {
     display: inline;
 	list-style: none;
 }
+
+.Titre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.Titre {
+    max-width: 700px;
+}
+
+.Titre {
+    margin: 50px;
+    padding: 70px 10% 0;
+}
+
+.Titre h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+

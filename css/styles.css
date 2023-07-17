@@ -7,10 +7,12 @@
     overflow-x: hidden;
 }  */
 
-body {
-    background: linear-gradient(#161623, #161623);
 
-}
+body {
+    height: 100vh;
+    background: rgb(131,58,180);
+background: linear-gradient(270deg, rgba(131,58,180,1) 0%, rgba(126,29,253,1) 50%, rgba(69,217,252,1) 100%);
+  }
 
 /* text h1 */
 
@@ -163,9 +165,6 @@ p {
 
     /* text */
 
-    body {
-        background-color: #000000 ;
-    }
     
     .debutdepage {
         margin-left: 25px;
