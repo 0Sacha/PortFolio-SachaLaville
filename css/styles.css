@@ -8,11 +8,11 @@
 }  */
 
 body {
-    background: #000;
+    background: url(img/background.png);
 }
 
 header {
-    background: #000;
+    background: #ffffff;
 }
 
 .earth {
@@ -85,9 +85,7 @@ header {
 /* ligne 1 */
 
 .ligne {
-    margin-top: -17px;
-    color: #5a1dffff;
-    background-color: #5a1dffff;
+    border-top: 3px solid #5a1dffff;
 }
 
 

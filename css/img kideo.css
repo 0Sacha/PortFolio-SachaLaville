@@ -60,6 +60,10 @@
 
 /* logo minecraft */
 
+.box-common {
+	height: 380px;
+}
+
 .box-img-logomc button {
     border: none;
     background: #28adff;
@@ -122,6 +126,8 @@
 
 /* Kideo bot */
 
+
+
 .box-img-kideobot button {
     border: none;
     background: #ff7c00;
@@ -139,6 +145,15 @@
 }
 
 .box-img-kideobot {
+	background: rgba( 0, 123, 255, 0.2 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 7.5px );
+	-webkit-backdrop-filter: blur( 7.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	}
+
+/* .box-img-kideobot {
 	background: #ff7c00;
 	box-shadow: 0 1px 20px 0 #ff7c00;
 	backdrop-filter: blur( 4px );
@@ -153,7 +168,7 @@
 	border-radius: 0.5rem;
 	transition: all .40s ease;
 	cursor: pointer;
-}
+} */
 .box-img-kideobot h3{
     font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
@@ -167,7 +182,7 @@
 	font-size: var(--p-font);
 	line-height: 30px;
 }
-.box-img-kideobot:hover{
+/* .box-img-kideobot:hover{
 	background: #ff7c00;
 	box-shadow: 0 0px 0px 0 #ff7c00;
 	backdrop-filter: blur( 0px );
@@ -178,7 +193,7 @@
 }
 .box-img-kideobot:hover h3{
 	color:#fff;
-}
+} */
 
 /* asset arty */
 
@@ -538,8 +553,8 @@
 }
 
 .box-img-DeltaOne img {
-	height: 225px ;
-	width : 350px ;
+	height: 100% ;
+	width : 100% ;
 	border-radius: 0.7rem;
 }
 
@@ -597,8 +612,8 @@
 }
 
 .box-img-PortFolio img {
-	height: 225px ;
-	width : 350px ;
+	height: 100% ;
+	width : 100% ;
 	border-radius: 0.7rem;
 }
 

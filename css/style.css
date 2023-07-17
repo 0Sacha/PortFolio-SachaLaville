@@ -1,6 +1,4 @@
-body {
-    background-color: #000000 ;
-}
+
 
 .debutdepage {
     margin-left: 25px;
@@ -39,7 +37,7 @@ body {
 }
 
 .findetext p {
-    margin-top: 200px;
+    margin-top: 50px;
     text-align: center;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
