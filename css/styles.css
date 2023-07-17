@@ -8,44 +8,8 @@
 }  */
 
 body {
-    background: url(img/background.png);
-}
+    background: linear-gradient(#161623, #161623);
 
-header {
-    background: #ffffff;
-}
-
-.earth {
-    animation: earth 8s ease-in-out 5s infinite;
-}
-
-
-.earth img {
-    object-fit: cover;
-    width:  1000px;
-    height: 950px;
-}
-
-.earth {
-    margin-left: 950px;
-    margin-top: -225px; 
-}
-
-/* moon */
-
-.moon {
-    animation: moon 8s ease-in-out 10s infinite;
-}
-
-.moon img {
-    object-fit: cover;
-    width:  500px;
-    height: 450px;
-}
-
-.moon {
-    margin-right: 1790px;
-    margin-top: -135px; 
 }
 
 /* text h1 */
