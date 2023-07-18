@@ -18,12 +18,25 @@
     color:#fff;
 	font-size: var(--h2-font);
 	margin-bottom: 10px;
+	font-weight: 200;
 }
 .main-text h4{
 	color:#fff;
 	font-size: 24px;
-	font-weight: 600;
+	font-weight: 250;
 }
+ 
+.main-text span{
+	font-weight: 500;
+}
+/* 
+.main-text span:hover {
+	transform: translateY(100px);
+    opacity: 1 ;
+    transition: 1s ease-in-out;
+	font-weight: bolder;
+} */
+
 
 .services-content{
     color:#fff;
