@@ -68,6 +68,16 @@ header {
 	font-weight: 500;
 }
 
+/* milieu de page */
+
+.milieudepage {
+    background-color: #0F0F0F;
+    border-top: 1px solid #000000;
+    backdrop-filter: blur(-105px) ;
+    box-shadow: 50px -50px 40px -30px rgba(0,0,0,0), 0px -7px 11px -1px rgba(0,0,0,0.51);
+}
+     
+
 /* footer */
 
 
