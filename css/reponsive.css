@@ -1,0 +1,9 @@
+@media screen {
+        body {
+        background-repeat: no-repeat;
+        background: rgb(131,58,180);
+        min-height: 100vh;
+        background: linear-gradient(270deg, rgba(131,58,180,1) 0%, rgba(126,29,253,1) 50%, rgba(69,217,252,1) 100%);
+        /* background-size: 450px; */
+      }
+}

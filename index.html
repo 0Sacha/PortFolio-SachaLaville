@@ -12,30 +12,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <!-- Link css -->
-    <link rel="stylesheet" href="css/background">
     <link rel="stylesheet" href="css/Glasmorphism.css">
-    <link rel="stylesheet" href="css/color-navbar-index.css">
-    <link rel="stylesheet" href="css/scrollUp.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/milieupage.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/image.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/dark_mode.css">
-    <link rel="stylesheet" href="css/img kideo.css">
 
-    <link rel="shortcut icon" href="img/white-rocket.png">
+
+    <link rel="shortcut icon" href="resources-img/img/white-rocket.png">
     
-
     <title>PortFolio | Sacha Laville </title>
 
 </head>
-<header 
-style=" background-color: #000000;
-        border-top: 1px solid #000000;
-        backdrop-filter: blur(-105px) ;
-        box-shadow: 0px 11px 31px 0px #000;">>
+<header>
     <br>
         <div class="banner">
            <img src="resources-img/img/banner.png" alt="bannière de toshypix" >
@@ -49,40 +36,9 @@ style=" background-color: #000000;
 
     <body>
 
-        <!-- <nav>
-            <ul class="nav__links">
-                <li><a href="404.html" class="Propos">Mon CV</a></li>
-            </ul>
-        </nav> -->
-
-        <!-- <br><br><br><br><br><br><br><br><br><br>
-
-     <div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <p>Bonjour</p>
-    </div>
-    <div class="carousel-item">
-      <p>Comment tu va ?</p>
-    </div>
-    <div class="carousel-item">
-      <p>Contact moi</p>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div> -->
-
-
         <div class="slider-thumb"></div>
 
-       <div class="milieudepage" id="projet">
+       <div>
             <div class="main-text">
                 <br><br>
                 <br><br>
@@ -173,28 +129,6 @@ style=" background-color: #000000;
             </div>
         </div>
     </section>
-        <!-- <div class="card-Kideo">
-            <div class="content-Kideo">
-                    <h2>Projet KIDEO</h2>
-                    <img src="Kideo/logo_fondalpha.png">  
-                    <a href="https://www.behance.net/gallery/159800841/LOGO-KIDEO-BOT" target="_blank">voir plus</a>
-            </div>
-        </div>
-        <div class="card-Kideo">
-            <div class="content-Kideo">
-                    <h2>Projet KIDEO</h2>
-                    <img src="Kideo/logo_fondalpha.png">  
-                    <a href="https://www.behance.net/gallery/159800841/LOGO-KIDEO-BOT" target="_blank">voir plus</a>
-            </div>
-        </div>
-        <div class="card-Kideo">
-            <div class="content-Kideo">
-                    <h2>Projet KIDEO</h2>
-                    <img src="Kideo/logo_fondalpha.png">  
-                    <a href="https://www.behance.net/gallery/159800841/LOGO-KIDEO-BOT" target="_blank">voir plus</a>
-            </div>
-        </div> -->
-
     </div>
     <br>
 
@@ -263,65 +197,14 @@ style=" background-color: #000000;
                 <p>Et l'intégralité de mes créations sur le développement web sur :<a href="https://github.com/0Sacha" target="_blank"> github</a> .</p>
             </div>
 
-            
-            
-
             <br><br><br>
 
+            <!-- Script Js  -->
 
 
-
-        
-        <!-- script hover glassphormism -->
         <script type="text/javascript" src="js/vanilla-tilt.js"></script>
-        <script type="text/javascript">
-            VanillaTilt.init(document.querySelectorAll(".card-logomc"), {
-                max: 25,
-                speed: 400
-            });</script>
-        <script type="text/javascript">
-            VanillaTilt.init(document.querySelectorAll(".card-Kideo"), {
-                max: 25,
-                speed: 400
-            });</script>
-        <script type="text/javascript">
-            VanillaTilt.init(document.querySelectorAll(".card-logoEtna"), {
-                max: 25,
-                speed: 400
-            });</script>
-
-    
-        <!-- ScrollUp arrow -->
-        <script>
-            const btn = document.querySelector('.btn')
-    
-            btn.addEventListener('click', () => {
-    
-            window.scrollTo({
-                top:0,
-                left:0,
-                behavior: "smooth"
-            })
-    
-            })       
-        </script>
-    
-        <!-- script header fixed-->
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var header = document.getElementById("myHeader");
-            var sticky = header.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-              } else {
-                header.classList.remove("sticky");
-              }
-            }
-            </script>
-
+        <script src="js/Glasmorphism.js"></script>
+        <script src="js/scrollUp.js"></script>
         <script src="//code.tidio.co/ww0upn2qfed6nqce0aqdlthcgicgpk94.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
