@@ -21,8 +21,23 @@ margin-top: 5rem;
 }
 
 @media (min-width:400px) {
-.container-siteweb .card-siteweb {
-  width: 356px;
-  height: 450px;
+  .container-siteweb .card-siteweb {
+    margin-left: auto;
+    width: 356px;
+    height: 450px;
+  }
 }
-}
+
+@media (max-width:900px) {
+    .container-siteweb .card-siteweb {
+      margin-left: auto;
+      width: 356px;
+      height: 450px;
+    }
+
+    .container-siteweb .card-siteweb:hover {
+      transform: none ;
+      transition: all 0.3s  linear ;
+    }
+
+  }
