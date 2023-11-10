@@ -1,21 +1,43 @@
-@media (max-width:710px) {
-        body {
-        background-repeat: no-repeat;
-        background: rgb(131,58,180);
-        min-height: 100vh;
-        background: linear-gradient(270deg, rgba(131,58,180,1) 0%, rgba(126,29,253,1) 50%, rgba(69,217,252,1) 100%);
-        /* background-size: 450px; */
-      }
+@media (max-width:400px) {
+  body {
+  background-repeat: no-repeat;
+  background: rgb(131,58,180);
+  min-height: 100vh;
+  background: linear-gradient(270deg, rgba(131,58,180,1) 0%, rgba(126,29,253,1) 50%, rgba(69,217,252,1) 100%);
+  /* background-size: 450px; */
+}
 }
 
-@media (min-width:710px) {
-  .container {
-  color:#fff;
-	display: flex;
-	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-	align-items: center;
-	text-align: center;
-	gap: 2rem;
-	margin-top: 5rem;
+@media (min-width:400px) {
+.container {
+color:#fff;
+display: flex;
+grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+align-items: center;
+text-align: center;
+gap: 2rem;
+margin-top: 5rem;
+}
+}
+
+@media (min-width:400px) {
+  .container-siteweb .card-siteweb {
+    margin-left: auto;
+    width: 356px;
+    height: 450px;
   }
 }
+
+@media (max-width:900px) {
+    .container-siteweb .card-siteweb {
+      margin-left: auto;
+      width: 356px;
+      height: 450px;
+    }
+
+    .container-siteweb .card-siteweb:hover {
+      transform: none ;
+      transition: all 0.3s  linear ;
+    }
+
+  }

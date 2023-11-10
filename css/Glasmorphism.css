@@ -40,7 +40,6 @@
 
 .container:hover {
     animation-play-state: paused;
-   
 }
 
 
@@ -123,9 +122,13 @@
 
 .container-siteweb
 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    color:#fff;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+	align-items: center;
+	text-align: center;
+	gap: 2rem;
+	margin-top: 5rem;
 }
 
 .container-siteweb .card-siteweb:hover {
@@ -137,7 +140,7 @@
 .container-siteweb .card-siteweb
 {
     transition: transform .1s; /* Animation */
-    width: 550px;
+    width: 400px;
     height: 450px;
     position: relative;
     margin: 30px;
@@ -158,6 +161,7 @@
 }
 .container-siteweb .card-siteweb .content-siteweb img
 {
+    display: flexbox;
     height: 300px;
     width: 300px;
 }
