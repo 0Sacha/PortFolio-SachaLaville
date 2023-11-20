@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(#010618, #010117);
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10000;
+
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a {
+    transition: all .35s ease-in-out;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active{
+    background: #fff;
+    color: #2b1055;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#sec::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #000000,transparent);
+    z-index: 1000;
+}
+section img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img#moon {
+    rotate: 269deg;
+    height: 500px;
+    width: 600px;
+    left: 140vh  ;
+}
+section img#earth {
+    top: 160px;
+    height: 600px;
+    width: 700px;
+    z-index: 9;
+    right: 120vh  ;
+}
+#text {
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 100;
+}
+#btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+#sec {
+    margin-top: -120px   ;
+    background: black;
+}
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #000;
+}
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.sec p {
+    font-size: 1em;
+    color: #fff;
+}
+
+/*Card*/
+
+.container {
+    margin-top: -80px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-text{
+    display: block;
+    margin-top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    text-align: center;
+
+}
+.main-text h2{
+    color:#fff;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+.main-text h4{
+    color:#fff;
+    font-size: 24px;
+    font-weight: 250;
+}
+
+.main-text span{
+    font-weight: 500;
+}
+.card {
+
+    border: 2px solid #fff;
+    margin: 12px;
+    height: 500px;
+    width: 367px;
+    background: grey;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.card0 {
+    background: url(resources-img/Kideo/logo_fondalpha.png) center center no-repeat;
+    height: 500px;
+    width: 367px;
+    transition: 1.5s all;
+    background-size: 300px ;
+}
+
+.card0:hover {
+    background-size: 450px ;
+    width: 1500px;
+    opacity: 1;
+}
+
+.card1 {
+    background: url(resources-img/logo-minecraft-rs/presentation_fondalpha.png) center center no-repeat;
+    height: 500px;
+    width: 367px;
+    transition: 1.5s all;
+    background-size: 225px ;
+
+}
+
+.card1:hover {
+    background-size: 450px ;
+    width: 1500px;
+    opacity: 1;
+}
+
+.card2 {
+    background: url(resources-img/etna/e_logo_Alpha.png) center center no-repeat;
+    height: 500px;
+    width: 367px;
+    transition: 1.5s all;
+    background-size: 225px ;
+
+}
+
+.card2:hover {
+    background-size: 450px ;
+    width: 1500px;
+    opacity: 1;
+}
+
+.card3 {
+    background: url(resources-img/dylan/DEBUTlogokronos.png) center center no-repeat;
+    height: 500px;
+    width: 367px;
+    transition: 1.5s all;
+    background-size: 225px ;
+
+}
+
+.card3:hover {
+    background-size: 490px ;
+    width: 1500px;
+    opacity: 1;
+}
+
+.card4 {
+    background: url(resources-img/twitch_arty/logo_Arty_fondalpha.png) center center no-repeat;
+    height: 500px;
+    width: 367px;
+    transition: 1.5s all;
+    background-size: 180px ;
+
+}
+
+.card4:hover {
+    background-size: 450px ;
+    width: 1500px;
+    opacity: 1;
+}
+
+.card5 {
+    background: url(resources-img/doodle/doodle.jpeg) center center no-repeat;
+    height: 500px;
+    width: 367px;
+    transition: 1.5s all;
+    background-size: 445px ;
+
+}
+
+.card5:hover {
+    background-size: 450px ;
+    width: 1500px;
+    opacity: 1;
+}
+
+.card6 {
+    background: url(resources-img/fondecranlama/fondlamanuit.jpg) center center no-repeat;
+    height: 500px;
+    width: 367px;
+    transition: 1.5s all;
+    background-size: 255px ;
+
+}
+
+.card6:hover {
+    background-size: 450px ;
+    width: 1500px;
+    opacity: 1;
+}
+
+
+.evp {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 1300px;
+}
+
+.evp {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold ;
+}
+
+.evp::before {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    transition: .6s all;
+    z-index: -1;
+}
+
+.evp:hover::before {
+    height: 25px;
+}
+
+
+.arrow-down {
+    margin-top: 20px;
+}
+
+.arrow-down a {
+    transition: all 2s ;
+}

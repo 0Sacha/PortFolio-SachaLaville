@@ -1,23 +1,48 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="css-maintenance/style.css">
-    <link rel="stylesheet" href="css-maintenance/maintenance.css">
-    <link rel="stylesheet" href="css-maintenance/responsive.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Sacha Laville</title>
+    <title>PortFolio - SachaLaville</title>
 </head>
 <body>
+<header>
+    <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#sec">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</header>
+<section>
+    <img src="img/stars.png" id="stars">
+    <img src="img/earth.png" id="earth">
+    <h2 id="text">Sacha Laville</h2>
+    <a href="#sec" id="btn">Découvrir</a>
+    <img src="img/moon.png" id="moon">
+</section>
 
-<h1 class="mtn">Site en Maintenance</h1>
+<div id="sec">
+    <div id="draw" class="main-text reveal">
+        <h2 class="typewriter">Voici mes <span>dessins</span></h2>
+        <h4>Je suis un Graphiste amateur depuis 3 ans.</h4>
+    </div>
 
-<footer>
-    <h1 class="footer1">Sacha Laville - 2023</h1>
-</footer>
 
-<script src="js/Carousel.js"></script>
-<script src="js/ScrollUp.js"></script>
-<script src="js/Reveal.js"></script>
+    <div class="container reveal">
+        <div class="card card0"></div>
+        <div class="card card1"></div>
+        <div class="card card2"></div>
+        <div class="card card3"></div>
+        <div class="card card4"></div>
+        <div class="card card5"></div>
+        <div class="card card6"></div>
+
+    </div>
+    <a class="evp" href="https://www.behance.net/Sacha_Laville" target="_blank">En voir plus</a>
+</div>
+
+<script src="js/Parallax.js"></script>
+
 </body>
 </html>
