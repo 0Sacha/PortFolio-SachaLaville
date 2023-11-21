@@ -33,7 +33,7 @@ header ul
 }
 header ul li {
     list-style: none;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 header ul li a {
     transition: all .35s ease-in-out;
@@ -78,16 +78,15 @@ section img {
 
 section img#moon {
     rotate: 269deg;
-    height: 500px;
-    width: 600px;
+    height: 60%;
+    width: 37%;
     left: 140vh  ;
 }
 section img#earth {
-    top: 160px;
-    height: 600px;
-    width: 700px;
-    z-index: 9;
-    right: 120vh  ;
+    top: 20%;
+    height: 80%;
+    width: 37%;
+    right: 140vh  ;
 }
 #text {
     position: absolute;
