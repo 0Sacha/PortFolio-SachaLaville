@@ -186,7 +186,7 @@ section img#earth {
 }
 
 .card0 {
-    background: url(resources-img/Kideo/logo_fondalpha.png) center center no-repeat;
+    background: url(../resources-img/Kideo/logo_fondalpha.png) center center no-repeat;
     height: 500px;
     width: 367px;
     transition: 1.5s all;
@@ -200,7 +200,7 @@ section img#earth {
 }
 
 .card1 {
-    background: url(resources-img/logo-minecraft-rs/presentation_fondalpha.png) center center no-repeat;
+    background: url(../resources-img/logo-minecraft-rs/presentation_fondalpha.png) center center no-repeat;
     height: 500px;
     width: 367px;
     transition: 1.5s all;
@@ -215,7 +215,7 @@ section img#earth {
 }
 
 .card2 {
-    background: url(resources-img/etna/e_logo_Alpha.png) center center no-repeat;
+    background: url(../resources-img/etna/e_logo_Alpha.png) center center no-repeat;
     height: 500px;
     width: 367px;
     transition: 1.5s all;
@@ -230,7 +230,7 @@ section img#earth {
 }
 
 .card3 {
-    background: url(resources-img/dylan/DEBUTlogokronos.png) center center no-repeat;
+    background: url(../resources-img/dylan/DEBUTlogokronos.png) center center no-repeat;
     height: 500px;
     width: 367px;
     transition: 1.5s all;
@@ -245,7 +245,7 @@ section img#earth {
 }
 
 .card4 {
-    background: url(resources-img/twitch_arty/logo_Arty_fondalpha.png) center center no-repeat;
+    background: url(../resources-img/twitch_arty/logo_Arty_fondalpha.png) center center no-repeat;
     height: 500px;
     width: 367px;
     transition: 1.5s all;
@@ -260,7 +260,7 @@ section img#earth {
 }
 
 .card5 {
-    background: url(resources-img/doodle/doodle.jpeg) center center no-repeat;
+    background: url(../resources-img/doodle/doodle.jpeg) center center no-repeat;
     height: 500px;
     width: 367px;
     transition: 1.5s all;
@@ -275,7 +275,7 @@ section img#earth {
 }
 
 .card6 {
-    background: url(resources-img/fondecranlama/fondlamanuit.jpg) center center no-repeat;
+    background: url(../resources-img/fondecranlama/fondlamanuit.jpg) center center no-repeat;
     height: 500px;
     width: 367px;
     transition: 1.5s all;
