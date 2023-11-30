@@ -7,11 +7,16 @@
     font-family: poppins, sans-serif;
     scroll-behavior: smooth;
 }
+
+html {
+    overflow-x: hidden;
+}
+
 body
 {
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(#010618, #010117);
+    background-color: #070707;
 }
 header {
     position: absolute;
@@ -47,6 +52,11 @@ header ul li a.active{
     background: #fff;
     color: #2b1055;
 }
+
+.main {
+    background-color: #1B1B1B;
+}
+
 section {
     position: relative;
     width: 100%;
@@ -76,26 +86,24 @@ section img {
     pointer-events: none;
 }
 
-section img#moon {
-    rotate: 269deg;
-    height: 60%;
-    width: 37%;
-    left: 140vh  ;
+section img#moon1 {
+    margin-top: 560px ;
+    height: 50%;
+    width: 100%;
 }
-section img#earth {
-    top: 20%;
-    height: 80%;
-    width: 37%;
-    right: 140vh  ;
-}
+
 #text {
     position: absolute;
     color: #fff;
     white-space: nowrap;
     font-size: 7.5vw;
+    font-weight: bolder;
     z-index: 100;
+    margin-top: -350px;
+    text-align: center;
 }
 #btn {
+    margin-top: -18%;
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
