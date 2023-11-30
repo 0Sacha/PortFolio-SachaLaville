@@ -1,15 +1,14 @@
 @media screen and (max-width: 801px) {
-    #sec::before {
-        display: none;
-    }
-
     #moon1 {
         display: none;
     }
 
+}
+
+@media screen and (max-width: 1366px) {
+
     .container {
-        display: grid ;
-        grid-column: 2/1;
+        display: grid;
         margin-top: 5%;
         min-width: 100%;
 
