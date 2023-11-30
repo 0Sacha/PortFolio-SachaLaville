@@ -77,6 +77,13 @@ section {
     background: linear-gradient(to top, #000000,transparent);
     z-index: 1000;
 }
+
+section img#moon1 {
+    margin-top: 560px;
+    height: 50%;
+    width: 100%;
+}
+
 section img {
     position: absolute;
     top: 0;
@@ -84,12 +91,6 @@ section img {
     height: 100%;
     object-fit: cover;
     pointer-events: none;
-}
-
-section img#moon1 {
-    margin-top: 560px ;
-    height: 50%;
-    width: 100%;
 }
 
 #text {
